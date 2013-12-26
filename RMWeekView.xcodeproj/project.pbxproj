@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F28A04E186C3B0500ADAC80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F28A04D186C3B0500ADAC80 /* Foundation.framework */; };
+		7F28A050186C3B0500ADAC80 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F28A04F186C3B0500ADAC80 /* CoreGraphics.framework */; };
+		7F28A052186C3B0500ADAC80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F28A051186C3B0500ADAC80 /* UIKit.framework */; };
+		7F28A058186C3B0500ADAC80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F28A056186C3B0500ADAC80 /* InfoPlist.strings */; };
+		7F28A05A186C3B0500ADAC80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F28A059186C3B0500ADAC80 /* main.m */; };
+		7F28A05E186C3B0500ADAC80 /* RMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F28A05D186C3B0500ADAC80 /* RMAppDelegate.m */; };
+		7F28A061186C3B0600ADAC80 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F28A05F186C3B0600ADAC80 /* Main_iPhone.storyboard */; };
+		7F28A064186C3B0600ADAC80 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F28A062186C3B0600ADAC80 /* Main_iPad.storyboard */; };
+		7F28A067186C3B0600ADAC80 /* RMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F28A066186C3B0600ADAC80 /* RMViewController.m */; };
+		7F28A069186C3B0600ADAC80 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F28A068186C3B0600ADAC80 /* Images.xcassets */; };
+		7F28A070186C3B0600ADAC80 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F28A06F186C3B0600ADAC80 /* XCTest.framework */; };
+		7F28A071186C3B0600ADAC80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F28A04D186C3B0500ADAC80 /* Foundation.framework */; };
+		7F28A072186C3B0600ADAC80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F28A051186C3B0500ADAC80 /* UIKit.framework */; };
+		7F28A07A186C3B0600ADAC80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F28A078186C3B0600ADAC80 /* InfoPlist.strings */; };
+		7F28A07C186C3B0600ADAC80 /* RMWeekViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F28A07B186C3B0600ADAC80 /* RMWeekViewTests.m */; };
+		7F28A087186C3B3500ADAC80 /* RMWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F28A086186C3B3500ADAC80 /* RMWeekView.m */; };
+		7F28A08A186C3F3400ADAC80 /* NSDate-Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F28A089186C3F3400ADAC80 /* NSDate-Utilities.m */; };
+		7F28A08C186C55AF00ADAC80 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F28A08B186C55AF00ADAC80 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F28A073186C3B0600ADAC80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F28A042186C3B0500ADAC80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F28A049186C3B0500ADAC80;
+			remoteInfo = RMWeekView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F28A04A186C3B0500ADAC80 /* RMWeekView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMWeekView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F28A04D186C3B0500ADAC80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7F28A04F186C3B0500ADAC80 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7F28A051186C3B0500ADAC80 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7F28A055186C3B0500ADAC80 /* RMWeekView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RMWeekView-Info.plist"; sourceTree = "<group>"; };
+		7F28A057186C3B0500ADAC80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F28A059186C3B0500ADAC80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F28A05B186C3B0500ADAC80 /* RMWeekView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RMWeekView-Prefix.pch"; sourceTree = "<group>"; };
+		7F28A05C186C3B0500ADAC80 /* RMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMAppDelegate.h; sourceTree = "<group>"; };
+		7F28A05D186C3B0500ADAC80 /* RMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMAppDelegate.m; sourceTree = "<group>"; };
+		7F28A060186C3B0600ADAC80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		7F28A063186C3B0600ADAC80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		7F28A065186C3B0600ADAC80 /* RMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMViewController.h; sourceTree = "<group>"; };
+		7F28A066186C3B0600ADAC80 /* RMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMViewController.m; sourceTree = "<group>"; };
+		7F28A068186C3B0600ADAC80 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7F28A06E186C3B0600ADAC80 /* RMWeekViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RMWeekViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F28A06F186C3B0600ADAC80 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7F28A077186C3B0600ADAC80 /* RMWeekViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RMWeekViewTests-Info.plist"; sourceTree = "<group>"; };
+		7F28A079186C3B0600ADAC80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F28A07B186C3B0600ADAC80 /* RMWeekViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMWeekViewTests.m; sourceTree = "<group>"; };
+		7F28A085186C3B3500ADAC80 /* RMWeekView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMWeekView.h; sourceTree = "<group>"; };
+		7F28A086186C3B3500ADAC80 /* RMWeekView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMWeekView.m; sourceTree = "<group>"; };
+		7F28A088186C3F3400ADAC80 /* NSDate-Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate-Utilities.h"; sourceTree = "<group>"; };
+		7F28A089186C3F3400ADAC80 /* NSDate-Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate-Utilities.m"; sourceTree = "<group>"; };
+		7F28A08B186C55AF00ADAC80 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F28A047186C3B0500ADAC80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F28A08C186C55AF00ADAC80 /* QuartzCore.framework in Frameworks */,
+				7F28A050186C3B0500ADAC80 /* CoreGraphics.framework in Frameworks */,
+				7F28A052186C3B0500ADAC80 /* UIKit.framework in Frameworks */,
+				7F28A04E186C3B0500ADAC80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F28A06B186C3B0600ADAC80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F28A070186C3B0600ADAC80 /* XCTest.framework in Frameworks */,
+				7F28A072186C3B0600ADAC80 /* UIKit.framework in Frameworks */,
+				7F28A071186C3B0600ADAC80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F28A041186C3B0500ADAC80 = {
+			isa = PBXGroup;
+			children = (
+				7F28A053186C3B0500ADAC80 /* RMWeekView */,
+				7F28A075186C3B0600ADAC80 /* RMWeekViewTests */,
+				7F28A04C186C3B0500ADAC80 /* Frameworks */,
+				7F28A04B186C3B0500ADAC80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F28A04B186C3B0500ADAC80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F28A04A186C3B0500ADAC80 /* RMWeekView.app */,
+				7F28A06E186C3B0600ADAC80 /* RMWeekViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F28A04C186C3B0500ADAC80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F28A08B186C55AF00ADAC80 /* QuartzCore.framework */,
+				7F28A04D186C3B0500ADAC80 /* Foundation.framework */,
+				7F28A04F186C3B0500ADAC80 /* CoreGraphics.framework */,
+				7F28A051186C3B0500ADAC80 /* UIKit.framework */,
+				7F28A06F186C3B0600ADAC80 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F28A053186C3B0500ADAC80 /* RMWeekView */ = {
+			isa = PBXGroup;
+			children = (
+				7F28A088186C3F3400ADAC80 /* NSDate-Utilities.h */,
+				7F28A089186C3F3400ADAC80 /* NSDate-Utilities.m */,
+				7F28A05C186C3B0500ADAC80 /* RMAppDelegate.h */,
+				7F28A05D186C3B0500ADAC80 /* RMAppDelegate.m */,
+				7F28A05F186C3B0600ADAC80 /* Main_iPhone.storyboard */,
+				7F28A062186C3B0600ADAC80 /* Main_iPad.storyboard */,
+				7F28A065186C3B0600ADAC80 /* RMViewController.h */,
+				7F28A066186C3B0600ADAC80 /* RMViewController.m */,
+				7F28A068186C3B0600ADAC80 /* Images.xcassets */,
+				7F28A054186C3B0500ADAC80 /* Supporting Files */,
+				7F28A085186C3B3500ADAC80 /* RMWeekView.h */,
+				7F28A086186C3B3500ADAC80 /* RMWeekView.m */,
+			);
+			path = RMWeekView;
+			sourceTree = "<group>";
+		};
+		7F28A054186C3B0500ADAC80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F28A055186C3B0500ADAC80 /* RMWeekView-Info.plist */,
+				7F28A056186C3B0500ADAC80 /* InfoPlist.strings */,
+				7F28A059186C3B0500ADAC80 /* main.m */,
+				7F28A05B186C3B0500ADAC80 /* RMWeekView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F28A075186C3B0600ADAC80 /* RMWeekViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F28A07B186C3B0600ADAC80 /* RMWeekViewTests.m */,
+				7F28A076186C3B0600ADAC80 /* Supporting Files */,
+			);
+			path = RMWeekViewTests;
+			sourceTree = "<group>";
+		};
+		7F28A076186C3B0600ADAC80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F28A077186C3B0600ADAC80 /* RMWeekViewTests-Info.plist */,
+				7F28A078186C3B0600ADAC80 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F28A049186C3B0500ADAC80 /* RMWeekView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F28A07F186C3B0600ADAC80 /* Build configuration list for PBXNativeTarget "RMWeekView" */;
+			buildPhases = (
+				7F28A046186C3B0500ADAC80 /* Sources */,
+				7F28A047186C3B0500ADAC80 /* Frameworks */,
+				7F28A048186C3B0500ADAC80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RMWeekView;
+			productName = RMWeekView;
+			productReference = 7F28A04A186C3B0500ADAC80 /* RMWeekView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F28A06D186C3B0600ADAC80 /* RMWeekViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F28A082186C3B0600ADAC80 /* Build configuration list for PBXNativeTarget "RMWeekViewTests" */;
+			buildPhases = (
+				7F28A06A186C3B0600ADAC80 /* Sources */,
+				7F28A06B186C3B0600ADAC80 /* Frameworks */,
+				7F28A06C186C3B0600ADAC80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F28A074186C3B0600ADAC80 /* PBXTargetDependency */,
+			);
+			name = RMWeekViewTests;
+			productName = RMWeekViewTests;
+			productReference = 7F28A06E186C3B0600ADAC80 /* RMWeekViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F28A042186C3B0500ADAC80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RM;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = ITWorx;
+				TargetAttributes = {
+					7F28A06D186C3B0600ADAC80 = {
+						TestTargetID = 7F28A049186C3B0500ADAC80;
+					};
+				};
+			};
+			buildConfigurationList = 7F28A045186C3B0500ADAC80 /* Build configuration list for PBXProject "RMWeekView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F28A041186C3B0500ADAC80;
+			productRefGroup = 7F28A04B186C3B0500ADAC80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F28A049186C3B0500ADAC80 /* RMWeekView */,
+				7F28A06D186C3B0600ADAC80 /* RMWeekViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F28A048186C3B0500ADAC80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F28A064186C3B0600ADAC80 /* Main_iPad.storyboard in Resources */,
+				7F28A069186C3B0600ADAC80 /* Images.xcassets in Resources */,
+				7F28A061186C3B0600ADAC80 /* Main_iPhone.storyboard in Resources */,
+				7F28A058186C3B0500ADAC80 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F28A06C186C3B0600ADAC80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F28A07A186C3B0600ADAC80 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F28A046186C3B0500ADAC80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F28A05A186C3B0500ADAC80 /* main.m in Sources */,
+				7F28A087186C3B3500ADAC80 /* RMWeekView.m in Sources */,
+				7F28A08A186C3F3400ADAC80 /* NSDate-Utilities.m in Sources */,
+				7F28A05E186C3B0500ADAC80 /* RMAppDelegate.m in Sources */,
+				7F28A067186C3B0600ADAC80 /* RMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F28A06A186C3B0600ADAC80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F28A07C186C3B0600ADAC80 /* RMWeekViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F28A074186C3B0600ADAC80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F28A049186C3B0500ADAC80 /* RMWeekView */;
+			targetProxy = 7F28A073186C3B0600ADAC80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F28A056186C3B0500ADAC80 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F28A057186C3B0500ADAC80 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7F28A05F186C3B0600ADAC80 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F28A060186C3B0600ADAC80 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		7F28A062186C3B0600ADAC80 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F28A063186C3B0600ADAC80 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		7F28A078186C3B0600ADAC80 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F28A079186C3B0600ADAC80 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F28A07D186C3B0600ADAC80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F28A07E186C3B0600ADAC80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F28A080186C3B0600ADAC80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RMWeekView/RMWeekView-Prefix.pch";
+				INFOPLIST_FILE = "RMWeekView/RMWeekView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7F28A081186C3B0600ADAC80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RMWeekView/RMWeekView-Prefix.pch";
+				INFOPLIST_FILE = "RMWeekView/RMWeekView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7F28A083186C3B0600ADAC80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RMWeekView.app/RMWeekView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RMWeekView/RMWeekView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RMWeekViewTests/RMWeekViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7F28A084186C3B0600ADAC80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RMWeekView.app/RMWeekView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RMWeekView/RMWeekView-Prefix.pch";
+				INFOPLIST_FILE = "RMWeekViewTests/RMWeekViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F28A045186C3B0500ADAC80 /* Build configuration list for PBXProject "RMWeekView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F28A07D186C3B0600ADAC80 /* Debug */,
+				7F28A07E186C3B0600ADAC80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F28A07F186C3B0600ADAC80 /* Build configuration list for PBXNativeTarget "RMWeekView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F28A080186C3B0600ADAC80 /* Debug */,
+				7F28A081186C3B0600ADAC80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F28A082186C3B0600ADAC80 /* Build configuration list for PBXNativeTarget "RMWeekViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F28A083186C3B0600ADAC80 /* Debug */,
+				7F28A084186C3B0600ADAC80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F28A042186C3B0500ADAC80 /* Project object */;
+}
