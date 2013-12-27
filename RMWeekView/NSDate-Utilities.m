@@ -354,7 +354,7 @@
 	return components.week;
 }
 
-- (NSInteger) weekday
+- (NSUInteger) weekday
 {
 	NSDateComponents *components = [CURRENT_CALENDAR components:DATE_COMPONENTS fromDate:self];
 	return components.weekday;

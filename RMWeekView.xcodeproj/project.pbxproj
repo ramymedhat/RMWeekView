@@ -25,6 +25,11 @@
 		7F28A087186C3B3500ADAC80 /* RMWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F28A086186C3B3500ADAC80 /* RMWeekView.m */; };
 		7F28A08A186C3F3400ADAC80 /* NSDate-Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F28A089186C3F3400ADAC80 /* NSDate-Utilities.m */; };
 		7F28A08C186C55AF00ADAC80 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F28A08B186C55AF00ADAC80 /* QuartzCore.framework */; };
+		7F28A0A4186CA9F500ADAC80 /* OCCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F28A09C186CA9F500ADAC80 /* OCCalendarView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7F28A0A5186CA9F500ADAC80 /* OCCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F28A09E186CA9F500ADAC80 /* OCCalendarViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7F28A0A6186CA9F500ADAC80 /* OCDaysView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F28A0A0186CA9F500ADAC80 /* OCDaysView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7F28A0A7186CA9F500ADAC80 /* OCSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F28A0A2186CA9F500ADAC80 /* OCSelectionView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7F28A0AA186CC24100ADAC80 /* NSDate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F28A0A9186CC24100ADAC80 /* NSDate+Helper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +68,17 @@
 		7F28A088186C3F3400ADAC80 /* NSDate-Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate-Utilities.h"; sourceTree = "<group>"; };
 		7F28A089186C3F3400ADAC80 /* NSDate-Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate-Utilities.m"; sourceTree = "<group>"; };
 		7F28A08B186C55AF00ADAC80 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7F28A09B186CA9F500ADAC80 /* OCCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCCalendarView.h; sourceTree = "<group>"; };
+		7F28A09C186CA9F500ADAC80 /* OCCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCCalendarView.m; sourceTree = "<group>"; };
+		7F28A09D186CA9F500ADAC80 /* OCCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCCalendarViewController.h; sourceTree = "<group>"; };
+		7F28A09E186CA9F500ADAC80 /* OCCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCCalendarViewController.m; sourceTree = "<group>"; };
+		7F28A09F186CA9F500ADAC80 /* OCDaysView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCDaysView.h; sourceTree = "<group>"; };
+		7F28A0A0186CA9F500ADAC80 /* OCDaysView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCDaysView.m; sourceTree = "<group>"; };
+		7F28A0A1186CA9F500ADAC80 /* OCSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCSelectionView.h; sourceTree = "<group>"; };
+		7F28A0A2186CA9F500ADAC80 /* OCSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCSelectionView.m; sourceTree = "<group>"; };
+		7F28A0A3186CA9F500ADAC80 /* OCTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTypes.h; sourceTree = "<group>"; };
+		7F28A0A8186CC24100ADAC80 /* NSDate+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Helper.h"; path = "OCCalendarView/NSDate+Helper.h"; sourceTree = "<group>"; };
+		7F28A0A9186CC24100ADAC80 /* NSDate+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Helper.m"; path = "OCCalendarView/NSDate+Helper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +140,9 @@
 		7F28A053186C3B0500ADAC80 /* RMWeekView */ = {
 			isa = PBXGroup;
 			children = (
+				7F28A0A8186CC24100ADAC80 /* NSDate+Helper.h */,
+				7F28A0A9186CC24100ADAC80 /* NSDate+Helper.m */,
+				7F28A09A186CA9F500ADAC80 /* OCCalendarView */,
 				7F28A088186C3F3400ADAC80 /* NSDate-Utilities.h */,
 				7F28A089186C3F3400ADAC80 /* NSDate-Utilities.m */,
 				7F28A05C186C3B0500ADAC80 /* RMAppDelegate.h */,
@@ -167,6 +186,22 @@
 				7F28A078186C3B0600ADAC80 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F28A09A186CA9F500ADAC80 /* OCCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				7F28A09B186CA9F500ADAC80 /* OCCalendarView.h */,
+				7F28A09C186CA9F500ADAC80 /* OCCalendarView.m */,
+				7F28A09D186CA9F500ADAC80 /* OCCalendarViewController.h */,
+				7F28A09E186CA9F500ADAC80 /* OCCalendarViewController.m */,
+				7F28A09F186CA9F500ADAC80 /* OCDaysView.h */,
+				7F28A0A0186CA9F500ADAC80 /* OCDaysView.m */,
+				7F28A0A1186CA9F500ADAC80 /* OCSelectionView.h */,
+				7F28A0A2186CA9F500ADAC80 /* OCSelectionView.m */,
+				7F28A0A3186CA9F500ADAC80 /* OCTypes.h */,
+			);
+			path = OCCalendarView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,9 +304,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F28A05A186C3B0500ADAC80 /* main.m in Sources */,
+				7F28A0A5186CA9F500ADAC80 /* OCCalendarViewController.m in Sources */,
 				7F28A087186C3B3500ADAC80 /* RMWeekView.m in Sources */,
 				7F28A08A186C3F3400ADAC80 /* NSDate-Utilities.m in Sources */,
 				7F28A05E186C3B0500ADAC80 /* RMAppDelegate.m in Sources */,
+				7F28A0A7186CA9F500ADAC80 /* OCSelectionView.m in Sources */,
+				7F28A0AA186CC24100ADAC80 /* NSDate+Helper.m in Sources */,
+				7F28A0A6186CA9F500ADAC80 /* OCDaysView.m in Sources */,
+				7F28A0A4186CA9F500ADAC80 /* OCCalendarView.m in Sources */,
 				7F28A067186C3B0600ADAC80 /* RMViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -491,6 +531,7 @@
 				7F28A081186C3B0600ADAC80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F28A082186C3B0600ADAC80 /* Build configuration list for PBXNativeTarget "RMWeekViewTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +540,7 @@
 				7F28A084186C3B0600ADAC80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

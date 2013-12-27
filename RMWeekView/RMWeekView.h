@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "OCCalendarView.h"
 
 typedef enum WeekDay {
     Mon=0,
@@ -18,12 +19,22 @@ typedef enum WeekDay {
     Sun=6
     } WeekDay;
 
-@interface RMWeekView : UIView <UIScrollViewDelegate>
+@interface RMWeekView : UIView <UIScrollViewDelegate, OCCalendarViewDelegate>
 
 /**
  *  Date of first day of the current visible week.
  */
 @property (nonatomic, strong) NSDate *currentWeekStart;
+
+/**
+ *  Start date of the control.
+ */
+@property (nonatomic, strong) NSDate *startDate;
+
+/**
+ *  End date of the control.
+ */
+@property (nonatomic, strong) NSDate *endDate;
 
 /**
  *  Day the week starts.

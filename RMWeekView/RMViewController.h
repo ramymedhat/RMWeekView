@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface RMViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+#import "OCCalendarView.h"
+@interface RMViewController : UIViewController <OCCalendarViewDelegate>
 
 @end

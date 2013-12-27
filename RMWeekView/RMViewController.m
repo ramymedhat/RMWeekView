@@ -9,12 +9,15 @@
 #import "RMViewController.h"
 #import "RMWeekView.h"
 #import "NSDate-Utilities.h"
+#import "OCCalendarView.h"
 
 @interface RMViewController ()
 
 @end
 
-@implementation RMViewController
+@implementation RMViewController {
+    OCCalendarView *calView;
+}
 
 - (void)viewDidLoad
 {
@@ -26,8 +29,14 @@
     
     view.currentWeekStart = [[[NSDate date] dateAtStartOfDay] dateBySubtractingDays:4];
     
-    self.scrollView.contentSize = CGSizeMake(1000.0, 1000.0);
-    self.scrollView.scrollEnabled = YES;
+    CGPoint point = CGPointMake(0, 0);
+    int width = 390;
+    int height = 300;
+    
+//    calView = [[OCCalendarView alloc] initAtPoint:CGPointMake(0, 0) withFrame:CGRectMake(-41,0, width, height)];
+//    calView.selectionMode = OCSelectionSingleDate;
+//    calView.delegate = self;
+//    [self.view addSubview:calView];
 }
 
 - (void)didReceiveMemoryWarning
@@ -36,4 +45,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void) dateSelected:(NSDate*)date {
+    NSLog(@"%@", date);
+}
 @end
