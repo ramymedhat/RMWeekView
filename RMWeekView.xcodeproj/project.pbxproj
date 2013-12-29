@@ -22,14 +22,14 @@
 		7F28A072186C3B0600ADAC80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F28A051186C3B0500ADAC80 /* UIKit.framework */; };
 		7F28A07A186C3B0600ADAC80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F28A078186C3B0600ADAC80 /* InfoPlist.strings */; };
 		7F28A07C186C3B0600ADAC80 /* RMWeekViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F28A07B186C3B0600ADAC80 /* RMWeekViewTests.m */; };
-		7F28A087186C3B3500ADAC80 /* RMWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F28A086186C3B3500ADAC80 /* RMWeekView.m */; };
-		7F28A08A186C3F3400ADAC80 /* NSDate-Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F28A089186C3F3400ADAC80 /* NSDate-Utilities.m */; };
 		7F28A08C186C55AF00ADAC80 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F28A08B186C55AF00ADAC80 /* QuartzCore.framework */; };
-		7F28A0A4186CA9F500ADAC80 /* OCCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F28A09C186CA9F500ADAC80 /* OCCalendarView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		7F28A0A5186CA9F500ADAC80 /* OCCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F28A09E186CA9F500ADAC80 /* OCCalendarViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		7F28A0A6186CA9F500ADAC80 /* OCDaysView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F28A0A0186CA9F500ADAC80 /* OCDaysView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		7F28A0A7186CA9F500ADAC80 /* OCSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F28A0A2186CA9F500ADAC80 /* OCSelectionView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		7F28A0AA186CC24100ADAC80 /* NSDate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F28A0A9186CC24100ADAC80 /* NSDate+Helper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7F5D16351870390300B478D4 /* NSDate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5D16271870390300B478D4 /* NSDate+Helper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7F5D16361870390300B478D4 /* NSDate-Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5D16291870390300B478D4 /* NSDate-Utilities.m */; };
+		7F5D16371870390300B478D4 /* OCCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5D162B1870390300B478D4 /* OCCalendarView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7F5D16381870390300B478D4 /* OCCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5D162D1870390300B478D4 /* OCCalendarViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7F5D16391870390300B478D4 /* OCDaysView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5D162F1870390300B478D4 /* OCDaysView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7F5D163A1870390300B478D4 /* OCSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5D16311870390300B478D4 /* OCSelectionView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7F5D163B1870390300B478D4 /* RMWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5D16341870390300B478D4 /* RMWeekView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,22 +63,22 @@
 		7F28A077186C3B0600ADAC80 /* RMWeekViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RMWeekViewTests-Info.plist"; sourceTree = "<group>"; };
 		7F28A079186C3B0600ADAC80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7F28A07B186C3B0600ADAC80 /* RMWeekViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMWeekViewTests.m; sourceTree = "<group>"; };
-		7F28A085186C3B3500ADAC80 /* RMWeekView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMWeekView.h; sourceTree = "<group>"; };
-		7F28A086186C3B3500ADAC80 /* RMWeekView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMWeekView.m; sourceTree = "<group>"; };
-		7F28A088186C3F3400ADAC80 /* NSDate-Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate-Utilities.h"; sourceTree = "<group>"; };
-		7F28A089186C3F3400ADAC80 /* NSDate-Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate-Utilities.m"; sourceTree = "<group>"; };
 		7F28A08B186C55AF00ADAC80 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		7F28A09B186CA9F500ADAC80 /* OCCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCCalendarView.h; sourceTree = "<group>"; };
-		7F28A09C186CA9F500ADAC80 /* OCCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCCalendarView.m; sourceTree = "<group>"; };
-		7F28A09D186CA9F500ADAC80 /* OCCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCCalendarViewController.h; sourceTree = "<group>"; };
-		7F28A09E186CA9F500ADAC80 /* OCCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCCalendarViewController.m; sourceTree = "<group>"; };
-		7F28A09F186CA9F500ADAC80 /* OCDaysView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCDaysView.h; sourceTree = "<group>"; };
-		7F28A0A0186CA9F500ADAC80 /* OCDaysView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCDaysView.m; sourceTree = "<group>"; };
-		7F28A0A1186CA9F500ADAC80 /* OCSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCSelectionView.h; sourceTree = "<group>"; };
-		7F28A0A2186CA9F500ADAC80 /* OCSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCSelectionView.m; sourceTree = "<group>"; };
-		7F28A0A3186CA9F500ADAC80 /* OCTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTypes.h; sourceTree = "<group>"; };
-		7F28A0A8186CC24100ADAC80 /* NSDate+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Helper.h"; path = "OCCalendarView/NSDate+Helper.h"; sourceTree = "<group>"; };
-		7F28A0A9186CC24100ADAC80 /* NSDate+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Helper.m"; path = "OCCalendarView/NSDate+Helper.m"; sourceTree = "<group>"; };
+		7F5D16261870390300B478D4 /* NSDate+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Helper.h"; sourceTree = "<group>"; };
+		7F5D16271870390300B478D4 /* NSDate+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Helper.m"; sourceTree = "<group>"; };
+		7F5D16281870390300B478D4 /* NSDate-Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate-Utilities.h"; sourceTree = "<group>"; };
+		7F5D16291870390300B478D4 /* NSDate-Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate-Utilities.m"; sourceTree = "<group>"; };
+		7F5D162A1870390300B478D4 /* OCCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCCalendarView.h; sourceTree = "<group>"; };
+		7F5D162B1870390300B478D4 /* OCCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCCalendarView.m; sourceTree = "<group>"; };
+		7F5D162C1870390300B478D4 /* OCCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCCalendarViewController.h; sourceTree = "<group>"; };
+		7F5D162D1870390300B478D4 /* OCCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCCalendarViewController.m; sourceTree = "<group>"; };
+		7F5D162E1870390300B478D4 /* OCDaysView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCDaysView.h; sourceTree = "<group>"; };
+		7F5D162F1870390300B478D4 /* OCDaysView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCDaysView.m; sourceTree = "<group>"; };
+		7F5D16301870390300B478D4 /* OCSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCSelectionView.h; sourceTree = "<group>"; };
+		7F5D16311870390300B478D4 /* OCSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCSelectionView.m; sourceTree = "<group>"; };
+		7F5D16321870390300B478D4 /* OCTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTypes.h; sourceTree = "<group>"; };
+		7F5D16331870390300B478D4 /* RMWeekView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMWeekView.h; sourceTree = "<group>"; };
+		7F5D16341870390300B478D4 /* RMWeekView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMWeekView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,11 +140,7 @@
 		7F28A053186C3B0500ADAC80 /* RMWeekView */ = {
 			isa = PBXGroup;
 			children = (
-				7F28A0A8186CC24100ADAC80 /* NSDate+Helper.h */,
-				7F28A0A9186CC24100ADAC80 /* NSDate+Helper.m */,
-				7F28A09A186CA9F500ADAC80 /* OCCalendarView */,
-				7F28A088186C3F3400ADAC80 /* NSDate-Utilities.h */,
-				7F28A089186C3F3400ADAC80 /* NSDate-Utilities.m */,
+				7F5D16251870390300B478D4 /* Source */,
 				7F28A05C186C3B0500ADAC80 /* RMAppDelegate.h */,
 				7F28A05D186C3B0500ADAC80 /* RMAppDelegate.m */,
 				7F28A05F186C3B0600ADAC80 /* Main_iPhone.storyboard */,
@@ -153,8 +149,6 @@
 				7F28A066186C3B0600ADAC80 /* RMViewController.m */,
 				7F28A068186C3B0600ADAC80 /* Images.xcassets */,
 				7F28A054186C3B0500ADAC80 /* Supporting Files */,
-				7F28A085186C3B3500ADAC80 /* RMWeekView.h */,
-				7F28A086186C3B3500ADAC80 /* RMWeekView.m */,
 			);
 			path = RMWeekView;
 			sourceTree = "<group>";
@@ -188,20 +182,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7F28A09A186CA9F500ADAC80 /* OCCalendarView */ = {
+		7F5D16251870390300B478D4 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				7F28A09B186CA9F500ADAC80 /* OCCalendarView.h */,
-				7F28A09C186CA9F500ADAC80 /* OCCalendarView.m */,
-				7F28A09D186CA9F500ADAC80 /* OCCalendarViewController.h */,
-				7F28A09E186CA9F500ADAC80 /* OCCalendarViewController.m */,
-				7F28A09F186CA9F500ADAC80 /* OCDaysView.h */,
-				7F28A0A0186CA9F500ADAC80 /* OCDaysView.m */,
-				7F28A0A1186CA9F500ADAC80 /* OCSelectionView.h */,
-				7F28A0A2186CA9F500ADAC80 /* OCSelectionView.m */,
-				7F28A0A3186CA9F500ADAC80 /* OCTypes.h */,
+				7F5D16261870390300B478D4 /* NSDate+Helper.h */,
+				7F5D16271870390300B478D4 /* NSDate+Helper.m */,
+				7F5D16281870390300B478D4 /* NSDate-Utilities.h */,
+				7F5D16291870390300B478D4 /* NSDate-Utilities.m */,
+				7F5D162A1870390300B478D4 /* OCCalendarView.h */,
+				7F5D162B1870390300B478D4 /* OCCalendarView.m */,
+				7F5D162C1870390300B478D4 /* OCCalendarViewController.h */,
+				7F5D162D1870390300B478D4 /* OCCalendarViewController.m */,
+				7F5D162E1870390300B478D4 /* OCDaysView.h */,
+				7F5D162F1870390300B478D4 /* OCDaysView.m */,
+				7F5D16301870390300B478D4 /* OCSelectionView.h */,
+				7F5D16311870390300B478D4 /* OCSelectionView.m */,
+				7F5D16321870390300B478D4 /* OCTypes.h */,
+				7F5D16331870390300B478D4 /* RMWeekView.h */,
+				7F5D16341870390300B478D4 /* RMWeekView.m */,
 			);
-			path = OCCalendarView;
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,16 +303,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F5D16351870390300B478D4 /* NSDate+Helper.m in Sources */,
+				7F5D16381870390300B478D4 /* OCCalendarViewController.m in Sources */,
 				7F28A05A186C3B0500ADAC80 /* main.m in Sources */,
-				7F28A0A5186CA9F500ADAC80 /* OCCalendarViewController.m in Sources */,
-				7F28A087186C3B3500ADAC80 /* RMWeekView.m in Sources */,
-				7F28A08A186C3F3400ADAC80 /* NSDate-Utilities.m in Sources */,
+				7F5D16361870390300B478D4 /* NSDate-Utilities.m in Sources */,
 				7F28A05E186C3B0500ADAC80 /* RMAppDelegate.m in Sources */,
-				7F28A0A7186CA9F500ADAC80 /* OCSelectionView.m in Sources */,
-				7F28A0AA186CC24100ADAC80 /* NSDate+Helper.m in Sources */,
-				7F28A0A6186CA9F500ADAC80 /* OCDaysView.m in Sources */,
-				7F28A0A4186CA9F500ADAC80 /* OCCalendarView.m in Sources */,
+				7F5D163A1870390300B478D4 /* OCSelectionView.m in Sources */,
+				7F5D16391870390300B478D4 /* OCDaysView.m in Sources */,
+				7F5D16371870390300B478D4 /* OCCalendarView.m in Sources */,
 				7F28A067186C3B0600ADAC80 /* RMViewController.m in Sources */,
+				7F5D163B1870390300B478D4 /* RMWeekView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
