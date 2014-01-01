@@ -24,10 +24,12 @@ const double kLabelHeight = 20.0f;
     BOOL isOpen;
 }
 
-- (id)initWithFrame:(CGRect)frame
+- (id)initWithFrame:(CGRect)frame andWeekStart:(WeekDay)weekStartDay
 {
     self = [super initWithFrame:frame];
     if (self) {
+        self.weekStartDay = weekStartDay;
+        
         // Initialization code
         _cells = [NSMutableArray array];
         _scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, kCellHeight)];

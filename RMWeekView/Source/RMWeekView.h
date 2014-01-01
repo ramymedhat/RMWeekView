@@ -41,4 +41,6 @@ typedef enum WeekDay {
  */
 @property (nonatomic) WeekDay weekStartDay;
 
+- (id)initWithFrame:(CGRect)frame andWeekStart:(WeekDay)weekStartDay;
+
 @end
