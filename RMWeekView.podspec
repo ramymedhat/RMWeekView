@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   }
   s.source_files = 'RMWeekView/Source/*.{h,m}'
   s.requires_arc = true
+  s.exclude_files = non_arc_files
   s.subspec 'no-arc' do |sna|
     sna.requires_arc = false
     sna.source_files = non_arc_files
