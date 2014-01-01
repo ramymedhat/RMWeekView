@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     'RMWeekView/Source/OCCalendarView.m',
     'RMWeekView/Source/OCCalendarViewController.m',
     'RMWeekView/Source/OCDaysView.m',
-    'RMWeekView/Source/OCSelectionView.m',
+    'RMWeekView/Source/OCSelectionView.m'
   s.source = {
     :git => 'https://github.com/ramymedhat/RMWeekView.git',
     :tag => '0.1.0'
