@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     'Ramy Medhat' => 'ramymedhat@gmail.com'
   }
   non_arc_files = 'RMWeekView/Source/NSDate-Utilities.m',
-    'RMWeekView/Source/NSDate-Helper.m',
+    'RMWeekView/Source/NSDate+Helper.m',
     'RMWeekView/Source/OCCalendarView.m',
     'RMWeekView/Source/OCCalendarViewController.m',
     'RMWeekView/Source/OCDaysView.m',
