@@ -52,7 +52,6 @@ typedef enum WeekDay {
  */
 @property (nonatomic) id<RMWeekViewDataSource> dataSource;
 
-
 - (id)initWithFrame:(CGRect)frame andWeekStart:(WeekDay)weekStartDay;
 
 @end
