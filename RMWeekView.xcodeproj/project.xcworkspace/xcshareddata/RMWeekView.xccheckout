@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A1238797-03A8-4E8B-A830-430A26B9238A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RMWeekView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D4ADED98-7033-4C91-9434-FF2C9ADA91E6</key>
+		<string>https://github.com/ramymedhat/RMWeekView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RMWeekView.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D4ADED98-7033-4C91-9434-FF2C9ADA91E6</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ramymedhat/RMWeekView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D4ADED98-7033-4C91-9434-FF2C9ADA91E6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D4ADED98-7033-4C91-9434-FF2C9ADA91E6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RMWeekView</string>
+		</dict>
+	</array>
+</dict>
+</plist>

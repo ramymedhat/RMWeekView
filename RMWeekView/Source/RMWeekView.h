@@ -17,7 +17,13 @@ typedef enum WeekDay {
     Fri=4,
     Sat=5,
     Sun=6
-    } WeekDay;
+} WeekDay;
+
+@protocol RMWeekViewDataSource <NSObject>
+
+-(NSInteger)numberOfEventsForDay:(NSDate*)day;
+
+@end
 
 @interface RMWeekView : UIView <UIScrollViewDelegate, OCCalendarViewDelegate>
 
@@ -40,5 +46,13 @@ typedef enum WeekDay {
  *  Day the week starts.
  */
 @property (nonatomic) WeekDay weekStartDay;
+
+/**
+ *  Week data source.
+ */
+@property (nonatomic) id<RMWeekViewDataSource> dataSource;
+
+
+- (id)initWithFrame:(CGRect)frame andWeekStart:(WeekDay)weekStartDay;
 
 @end

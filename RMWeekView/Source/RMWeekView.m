@@ -12,7 +12,7 @@
 #import "NSDate+Helper.h"
 
 const double kCellWidth = (320.0f/7.0f);
-const double kCellHeight = 45.0f;
+const double kCellHeight = 50.0f;
 const double kLabelHeight = 20.0f;
 
 @implementation RMWeekView {
@@ -24,10 +24,12 @@ const double kLabelHeight = 20.0f;
     BOOL isOpen;
 }
 
-- (id)initWithFrame:(CGRect)frame
+- (id)initWithFrame:(CGRect)frame andWeekStart:(WeekDay)weekStartDay
 {
     self = [super initWithFrame:frame];
     if (self) {
+        self.weekStartDay = weekStartDay;
+        
         // Initialization code
         _cells = [NSMutableArray array];
         _scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, kCellHeight)];
@@ -101,7 +103,7 @@ const double kLabelHeight = 20.0f;
             calView.center = CGPointMake(calView.center.x, calView.center.y-35);
             self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y, self.frame.size.width, self.frame.size.height-960);
         } completion:^(BOOL finished) {
-//          calView.center = CGPointMake(calView.center.x, calView.center.y+65);
+            //          calView.center = CGPointMake(calView.center.x, calView.center.y+65);
             recognizer.enabled = YES;
             isOpen = NO;
         }];
@@ -194,6 +196,7 @@ const double kLabelHeight = 20.0f;
         UIView *cell = (UIView*)_cells[i];
         if ([[cell subviews] count] > 0) {
             [[[cell subviews] lastObject] removeFromSuperview];
+            [[[cell subviews] lastObject] removeFromSuperview];
         }
         
         UILabel *lbl = [[UILabel alloc] initWithFrame:CGRectMake(0, 20, kCellWidth, kCellHeight - 20)];
@@ -204,6 +207,18 @@ const double kLabelHeight = 20.0f;
         lbl.font = [UIFont boldSystemFontOfSize:16.0];
         lbl.textAlignment = NSTextAlignmentCenter;
         [cell addSubview:lbl];
+        
+        if (self.dataSource && [self.dataSource respondsToSelector:@selector(numberOfEventsForDay:)]) {
+            UILabel *lblEvents = [[UILabel alloc] initWithFrame:CGRectMake(0, 25, kCellWidth, kCellHeight - 20)];
+            lblEvents.backgroundColor = [UIColor clearColor];
+            lblEvents.userInteractionEnabled = NO;
+            lblEvents.text = [self fromNumberOfEventsToString:[self.dataSource numberOfEventsForDay:[self.currentWeekStart dateByAddingDays:days]]];
+            lblEvents.textColor = [UIColor blackColor];
+            lblEvents.font = [UIFont boldSystemFontOfSize:25.0];
+            lblEvents.textAlignment = NSTextAlignmentCenter;
+            [cell addSubview:lblEvents];
+        }
+        
         days++;
     }
     
@@ -222,13 +237,22 @@ const double kLabelHeight = 20.0f;
     
 }
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
+- (NSString*)fromNumberOfEventsToString:(NSInteger)numOfEvents
 {
-    // Drawing code
+    NSMutableString *dots = [NSMutableString stringWithString:@""];
+    for (int i = numOfEvents; i > 0; i--) {
+        [dots appendString:@"."];
+    }
+    return dots;
 }
-*/
+
+/*
+ // Only override drawRect: if you perform custom drawing.
+ // An empty implementation adversely affects performance during animation.
+ - (void)drawRect:(CGRect)rect
+ {
+ // Drawing code
+ }
+ */
 
 @end

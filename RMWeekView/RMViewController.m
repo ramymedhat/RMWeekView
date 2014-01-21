@@ -27,7 +27,7 @@
     view.userInteractionEnabled = YES;
     [self.view addSubview:view];
     
-    view.currentWeekStart = [[[NSDate date] dateAtStartOfDay] dateBySubtractingDays:4];
+    view.currentWeekStart = [[NSDate date] dateAtStartOfDay];
     
     CGPoint point = CGPointMake(0, 0);
     int width = 390;
